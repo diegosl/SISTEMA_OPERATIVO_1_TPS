@@ -4,15 +4,15 @@ Este trabajo practico se lo utilizo en SO ubuntu.
 
 El proyecto ksamp esta compuesto por los siguientes archivos:
 
-* ksamp.c
-* ParteB.h
-* ParteC.h
-* ParteD.h
-* makefile
+* [ksamp.c] (https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP1/CODIGO_KSAMP/ksamp.c)
+* [ParteB.h] (https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP1/CODIGO_KSAMP/ParteB.h)
+* [ParteC.h] (https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP1/CODIGO_KSAMP/ParteC.h)
+* [ParteD.h] (https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP1/CODIGO_KSAMP/ParteD.h)
+* [makefile] (https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP1/CODIGO_KSAMP/makefile)
 
 Luego a modo de documentacion se realizo en un informe, el cual es:
 
-* INFORME KSAMP.pdf
+* [INFORME KSAMP.pdf] (https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP1/INFORME_KSAMP/INFORME%20KSAMP.pdf)
 
 Se describira como es el uso del proyecto ksamp:
 
