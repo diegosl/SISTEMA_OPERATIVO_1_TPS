@@ -16,7 +16,7 @@ Luego a modo de documentacion se realizo en un informe, el cual es:
 
 Se describira como es el uso del proyecto ksamp:
 
-1. **Primero se debe ir a al directorio donde se encuentra el proyecto:**
+1. **Primero se debe ir al directorio donde se encuentra el proyecto:**
 
   *por ejemplo:* **$ cd Documentos/ProyectoKsamp**
 
