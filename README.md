@@ -36,6 +36,6 @@ Se describira como es el uso del proyecto ksamp:
 
   *por ejemplo:* **$ ./ksamp.out -l 5 15**
 
-5. **Para fianlizar debemos eliminar el archivo ejecutable deonde se debe colocar en la consola:**
+5. **Para finalizar debemos eliminar el archivo ejecutable donde se debe colocar en la consola:**
 
   **$ make clean**
