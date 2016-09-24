@@ -18,24 +18,24 @@ Se describira como es el uso del proyecto ksamp:
 
 1. **Primero se debe ir a al directorio donde se encuentra el proyecto:**
 
-*por ejemplo:* **$ cd Documentos/ProyectoKsamp**
+  *por ejemplo:* **$ cd Documentos/ProyectoKsamp**
 
 2. **Para compilar el proyecto ksamp debe ingresar en la consola:**
 
-**$ make**
+  **$ make**
 
 3. **Para ejecutar la primera version del proyecto ksamp (PARTE B) debe ingresar en la consola:**
 
-*por ejemplo:* **$ ./ksamp.out**
+  *por ejemplo:* **$ ./ksamp.out**
 
 4. **Para ejecutar la segunda version del proyecto ksamp (PARTE C) debe ingresar en la consola:**
 
-*por ejemplo:* **$ ./ksamp.out -s**
+  *por ejemplo:* **$ ./ksamp.out -s**
 
 5. **Para ejecutar la tercera version del proyecto ksamp (PARTE D) debe ingresar en la consola:**
 
-*por ejemplo:* **$ ./ksamp.out -l 5 15**
+  *por ejemplo:* **$ ./ksamp.out -l 5 15**
 
 5. **Para fianlizar debemos eliminar el archivo ejecutable deonde se debe colocar en la consola:**
 
-**$ make clean**
+  **$ make clean**
