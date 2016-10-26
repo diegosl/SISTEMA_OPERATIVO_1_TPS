@@ -36,7 +36,7 @@ Se describira como es el uso del proyecto ksamp:
 
   *por ejemplo:* **$ ./ksamp.out -l 5 15**
 
-5. **Para finalizar debemos eliminar el archivo ejecutable donde se debe colocar en la consola:**
+6. **Para finalizar debemos eliminar el archivo ejecutable donde se debe colocar en la consola:**
 
   **$ make clean**
   
@@ -45,12 +45,12 @@ Se describira como es el uso del proyecto ksamp:
 Este trabajo practico se lo utilizo en SO ubuntu.
 
 El proyecto baash esta compuesto por los siguientes archivos:
-* [baash.c] (https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP1/CODIGO_KSAMP/ksamp.c)
-* [makefile] (https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP1/CODIGO_KSAMP/makefile)
+* [baash.c] (https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP2/CODIGO_BAASH/baash.c)
+* [makefile] (https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP2/CODIGO_BAASH/makefile)
 
 Luego a modo de documentacion se realizo en un informe, el cual es:
 
-* [INFORME BAASH.pdf] (https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP1/INFORME_KSAMP/INFORME%20KSAMP.pdf)
+* [INFORME BAASH.pdf] (https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP2/INFORME_BAASH/INFORME%20BAASH.pdf)
 
 Se describira como es el uso del proyecto baash:
 
