@@ -61,7 +61,7 @@ void MostrarInfoAutor()
 	printf("\n///////////////////SISTEMA OPERATIVO 1//////////////////////\n");
 	printf("TRABAJO PRACTICO N°1: KSAMP \n");
 	printf("ALUMNO: SOSA LUDUEÑA DIEGO MATIAS \n");
-	printf("ALUMNO: CHOQUEVILCA ZOTAR GUSTAVO BRIAN \n");
+	printf("ALUMNO: CHOQUEVILCA ZOTAR GUSTAVO BRAIAN \n");
 	printf("////////////////////////////////////////////////////////////\n");
 }
 /*///////////////////////////////////////////////////////////////////////////////////////////////////////////*/
