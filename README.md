@@ -87,10 +87,10 @@ Se describira como es el uso del proyecto baash:
 Este trabajo practico se lo utilizo en SO ubuntu.
 
 El proyecto modulos para kernel de linux esta compuesto por los siguientes archivos:
-* [main.c] (https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP2/CODIGO_BAASH/baash.c)
-* [mkmodulo.c] (https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP2/CODIGO_BAASH/baash.c)
-* [mkmodulo2.c] (https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP2/CODIGO_BAASH/baash.c)
-* [makefile] (https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP2/CODIGO_BAASH/makefile)
+* [main.c] (https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP3/main.c)
+* [mkmodulo.c] (https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP3/mkmodulo.c)
+* [mkmodulo2.c] (https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP3/mkmodulo2.c)
+* [makefile] (https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP3/Makefile)
 
 Descripcion del proyecto:
 El objetivo de este trabajo practico es el desarrollo de dos simples módulos para insertar en el kernel de linux. Uno de los dispositivos realizara la encriptacion simple de los caracteres que se escriben en el. El otro de los módulos realizara la desencriptacion de los caracteres que se escriben en el. Esta encriptacion y desencriptacon consta de la conversión de cada carácter a numero y luego sumar y restar un valor constante a cada carácter. En este caso la constante es uno. Con respecto a los caracteres solo se tiene en cuenta las letras de abecedario en minúscula.
@@ -107,8 +107,8 @@ Pasos que se deben realizar para poder ejecutar y compilar el proyecto:
 
 3. **Se debe cargar los modulos en el kernel:**
 
-  *En modo usuario (para encriptar):* **$ sudo insmod mkmodulo.ko**
-  *En modo usuario (para desencriptar):* **$ sudo insmod mkmodulo2.ko**
+  * *En modo usuario (para encriptar):*    **$ sudo insmod mkmodulo.ko**
+  * *En modo usuario (para desencriptar):* **$ sudo insmod mkmodulo2.ko**
 
 4. **Se debe verificar que los modulos estan cargados en el kernel:**
 
@@ -124,6 +124,6 @@ Pasos que se deben realizar para poder ejecutar y compilar el proyecto:
 
 7. **Para eliminar los modulos cargados en el kernel, se debe colocar:**
 
-  **$ sudo rmmod mkmodulo**
-  **$ sudo rmmod mkmodulo2**
+  * **$ sudo rmmod mkmodulo**
+  * **$ sudo rmmod mkmodulo2**
   
