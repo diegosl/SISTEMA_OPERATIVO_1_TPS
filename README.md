@@ -133,12 +133,13 @@ Pasos que se deben realizar para poder ejecutar y compilar el proyecto:
 Este trabajo practico se lo utilizo en SO ubuntu.
 
 El proyecto gestion de memoria esta compuesto por los siguientes archivos:
-* [GestionDeMemoria.c] (https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP3/main.c)
-* [makefile] (https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP3/Makefile)
+* [GestionDeMemoria.c] (https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP4/GESTIONDEMEMORIA/GestionDeMemoria.c)
+* [makefile] (https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP4/GESTIONDEMEMORIA/makefile)
 
 Descripcion del proyecto:
 
 En este trabajo practico se implemento la funcion *malloc* y la funcion *free* para la asignacion y liberacion de la memoria (memoria dinamica). La memoria dinamica es la memoria que se reserva en tiempo de ejecucion. Por lo tanto nosotros como programadores tendremos la tarea de reservar y liberar memoria. 
+
 La funcion *malloc* reserva un bloque de memoria y devuelve un puntero void al inicio de la misma, el prototipo de dicha funcion es:
 
 **void *malloc(size_t size);**
@@ -165,7 +166,7 @@ Pasos que se deben realizar para poder ejecutar y compilar el proyecto:
 
 3. **Para ejecutar el proyecto:**
 
-  **$ ./GestioDeMemoria.out**
+  **$ ./GestionDeMemoria.out**
 
 4. **Para finalizar debemos eliminar el archivo ejecutable donde se debe colocar en la consola:**
 
