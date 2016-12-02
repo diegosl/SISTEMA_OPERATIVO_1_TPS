@@ -87,12 +87,13 @@ Se describira como es el uso del proyecto baash:
 Este trabajo practico se lo utilizo en SO ubuntu.
 
 El proyecto modulos para kernel de linux esta compuesto por los siguientes archivos:
-* [main.c] (https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP2/CODIGO_BAASH/baash.c)
-* [mkmodulo.c] (https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP2/CODIGO_BAASH/baash.c)
-* [mkmodulo2.c] (https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP2/CODIGO_BAASH/baash.c)
-* [makefile] (https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP2/CODIGO_BAASH/makefile)
+* [main.c] (https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP3/main.c)
+* [mkmodulo.c] (https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP3/mkmodulo.c)
+* [mkmodulo2.c] (https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP3/mkmodulo2.c)
+* [makefile] (https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP3/Makefile)
 
 Descripcion del proyecto:
+
 El objetivo de este trabajo practico es el desarrollo de dos simples módulos para insertar en el kernel de linux. Uno de los dispositivos realizara la encriptacion simple de los caracteres que se escriben en el. El otro de los módulos realizara la desencriptacion de los caracteres que se escriben en el. Esta encriptacion y desencriptacon consta de la conversión de cada carácter a numero y luego sumar y restar un valor constante a cada carácter. En este caso la constante es uno. Con respecto a los caracteres solo se tiene en cuenta las letras de abecedario en minúscula.
 
 Pasos que se deben realizar para poder ejecutar y compilar el proyecto:
@@ -107,8 +108,8 @@ Pasos que se deben realizar para poder ejecutar y compilar el proyecto:
 
 3. **Se debe cargar los modulos en el kernel:**
 
-  *En modo usuario (para encriptar):* **$ sudo insmod mkmodulo.ko**
-  *En modo usuario (para desencriptar):* **$ sudo insmod mkmodulo2.ko**
+  * *En modo usuario (para encriptar):*    **$ sudo insmod mkmodulo.ko**
+  * *En modo usuario (para desencriptar):* **$ sudo insmod mkmodulo2.ko**
 
 4. **Se debe verificar que los modulos estan cargados en el kernel:**
 
@@ -124,6 +125,48 @@ Pasos que se deben realizar para poder ejecutar y compilar el proyecto:
 
 7. **Para eliminar los modulos cargados en el kernel, se debe colocar:**
 
-  **$ sudo rmmod mkmodulo**
-  **$ sudo rmmod mkmodulo2**
+  * **$ sudo rmmod mkmodulo**
+  * **$ sudo rmmod mkmodulo2**
   
+# TRABAJO PRACTICO 4: GESTION DE MEMORIA
+
+Este trabajo practico se lo utilizo en SO ubuntu.
+
+El proyecto gestion de memoria esta compuesto por los siguientes archivos:
+* [GestionDeMemoria.c] (https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP3/main.c)
+* [makefile] (https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP3/Makefile)
+
+Descripcion del proyecto:
+
+En este trabajo practico se implemento la funcion *malloc* y la funcion *free* para la asignacion y liberacion de la memoria (memoria dinamica). La memoria dinamica es la memoria que se reserva en tiempo de ejecucion. Por lo tanto nosotros como programadores tendremos la tarea de reservar y liberar memoria. 
+La funcion *malloc* reserva un bloque de memoria y devuelve un puntero void al inicio de la misma, el prototipo de dicha funcion es:
+
+**void *malloc(size_t size);**
+
+Donde el parametro *size* especifica el numero de bytes a reservar. En caso de que no se pueda realizar la asignacion, devuelve el valor nulo.
+
+La funcion *free* sirve para liberar memoria que se asigno dinamicamente. Si el puntero es nulo, la funcion no hace nada, el prototipo de dicha funcion es:
+
+**void *free(void *ptr);**
+
+Donde el parametro *ptr* es el puntero a la memoria que se desea liberar.
+
+Una vez liberada la memoria, si se quiere volver a utilizar el puntero, primero se debe reservar nueva memoria con la funcion *malloc*
+
+Pasos que se deben realizar para poder ejecutar y compilar el proyecto:
+
+1. **Primero se debe ir al directorio donde se encuentra el proyecto:**
+
+  *por ejemplo:* **$ cd Documentos/ProyectoGestionDeMemoria**
+
+2. **Para compilar el proyecto gestion de memoria debe ingresar en la consola:**
+
+  **$ make**
+
+3. **Para ejecutar el proyecto:**
+
+  **$ ./GestioDeMemoria.out**
+
+4. **Para finalizar debemos eliminar el archivo ejecutable donde se debe colocar en la consola:**
+
+  **$ make clean**
