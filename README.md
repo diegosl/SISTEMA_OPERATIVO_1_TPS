@@ -4,15 +4,15 @@ Este trabajo practico se lo utilizo en SO ubuntu.
 
 El proyecto ksamp esta compuesto por los siguientes archivos:
 
-* [ksamp.c] (https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP1/CODIGO_KSAMP/ksamp.c)
-* [ParteB.h] (https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP1/CODIGO_KSAMP/ParteB.h)
-* [ParteC.h] (https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP1/CODIGO_KSAMP/ParteC.h)
-* [ParteD.h] (https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP1/CODIGO_KSAMP/ParteD.h)
-* [makefile] (https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP1/CODIGO_KSAMP/makefile)
+* [ksamp.c](https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP1/CODIGO_KSAMP/ksamp.c)
+* [ParteB.h](https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP1/CODIGO_KSAMP/ParteB.h)
+* [ParteC.h](https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP1/CODIGO_KSAMP/ParteC.h)
+* [ParteD.h](https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP1/CODIGO_KSAMP/ParteD.h)
+* [makefile](https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP1/CODIGO_KSAMP/makefile)
 
 Luego a modo de documentacion se realizo en un informe, el cual es:
 
-* [INFORME KSAMP.pdf] (https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP1/INFORME_KSAMP/INFORME%20KSAMP.pdf)
+* [INFORME KSAMP.pdf](https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP1/INFORME_KSAMP/INFORME%20KSAMP.pdf)
 
 Se describira como es el uso del proyecto ksamp:
 
@@ -45,12 +45,12 @@ Se describira como es el uso del proyecto ksamp:
 Este trabajo practico se lo utilizo en SO ubuntu.
 
 El proyecto baash esta compuesto por los siguientes archivos:
-* [baash.c] (https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP2/CODIGO_BAASH/baash.c)
-* [makefile] (https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP2/CODIGO_BAASH/makefile)
+* [baash.c](https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP2/CODIGO_BAASH/baash.c)
+* [makefile](https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP2/CODIGO_BAASH/makefile)
 
 Luego a modo de documentacion se realizo en un informe, el cual es:
 
-* [INFORME BAASH.pdf] (https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP2/INFORME_BAASH/INFORME%20BAASH.pdf)
+* [INFORME BAASH.pdf](https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP2/INFORME_BAASH/INFORME%20BAASH.pdf)
 
 Se describira como es el uso del proyecto baash:
 
@@ -87,10 +87,10 @@ Se describira como es el uso del proyecto baash:
 Este trabajo practico se lo utilizo en SO ubuntu.
 
 El proyecto modulos para kernel de linux esta compuesto por los siguientes archivos:
-* [main.c] (https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP3/main.c)
-* [mkmodulo.c] (https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP3/mkmodulo.c)
-* [mkmodulo2.c] (https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP3/mkmodulo2.c)
-* [makefile] (https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP3/Makefile)
+* [main.c](https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP3/main.c)
+* [mkmodulo.c](https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP3/mkmodulo.c)
+* [mkmodulo2.c](https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP3/mkmodulo2.c)
+* [makefile](https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP3/Makefile)
 
 Descripcion del proyecto:
 
@@ -133,8 +133,8 @@ Pasos que se deben realizar para poder ejecutar y compilar el proyecto:
 Este trabajo practico se lo utilizo en SO ubuntu.
 
 El proyecto gestion de memoria esta compuesto por los siguientes archivos:
-* [GestionDeMemoria.c] (https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP4/GESTIONDEMEMORIA/GestionDeMemoria.c)
-* [makefile] (https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP4/GESTIONDEMEMORIA/makefile)
+* [GestionDeMemoria.c](https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP4/GESTIONDEMEMORIA/GestionDeMemoria.c)
+* [makefile](https://github.com/diegosl/SISTEMA_OPERATIVO_1_TPS/blob/master/TP4/GESTIONDEMEMORIA/makefile)
 
 Descripcion del proyecto:
 
